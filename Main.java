@@ -9,7 +9,7 @@ class Main {
     int totalScoops = iceCream(scoops); 
 
     int count = 0;  
-    int total = finalAmount;
+    int total = finalAmount;  
   }
 
   static int iceCream(int scoops){
