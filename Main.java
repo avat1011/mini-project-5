@@ -1,10 +1,12 @@
 import java.util.Scanner; 
 
+
+//purpose of this method is to see how many scoops of ice cream the user wants and what flavor they want for each individual scoop
 class Main {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in); //used for user's imput
 
-    System.out.println("Hi! Welcome to Ava's Ice Cream Shop. How many scoops of ice cream would you like?");
+    System.out.println("Hi! Welcome to Ava's Ice Cream Shop. How many scoops of ice cream would you like?");  
     int scoops = scan.nextInt();
     int count = 1; //will remain 1 as we can't do 0
     iceCream(scoops, count); //calling the method 
