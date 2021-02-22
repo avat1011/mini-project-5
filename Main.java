@@ -22,7 +22,7 @@ class Main {
       String flavor = scan.next();
       count++; //count adds 1 after every time
       return iceCream(scoops, count);
-    } else { //else statement if if statement is not fulfulled
+    } else { //else statement if if statement is not fulfulled 
       System.out.println("You're ice cream is ready! ");
       return false;
     }
