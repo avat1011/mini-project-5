@@ -8,7 +8,7 @@ class Main {
 
     System.out.println("Hi! Welcome to Ava's Ice Cream Shop. How many scoops of ice cream would you like?");  
     int scoops = scan.nextInt(); 
-    int count = 1; //will remain 1 as we can't do 0
+    int count = 1; //will remain 1 as we can't do 0 
     iceCream(scoops, count); //calling the method 
   }
   
