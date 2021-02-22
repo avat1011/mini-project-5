@@ -14,7 +14,7 @@ class Main {
   
   static boolean iceCream(int scoops, int count) {
     Scanner scan = new Scanner(System.in);
-    if (count <= scoops) { 
+    if (count <= scoops) {  
       //seeing how many scoops you have considering what you put into imput.
       //all scoops have to be less or equal to 1, or else you already have all your scoops. 
       System.out.println("you're at " + count + " scoop.");
