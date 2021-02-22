@@ -20,7 +20,7 @@ class Main {
       System.out.println("you're at " + count + " scoop.");
       System.out.println("What flavor would you like? "); //asking what flavor user wants
       String flavor = scan.next();
-      count++; //count adds 1 after every time
+      count++; //count adds 1 after every time 
       return iceCream(scoops, count);
     } else { //else statement if if statement is not fulfulled 
       System.out.println("You're ice cream is ready! ");
